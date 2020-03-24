@@ -97,57 +97,57 @@
               {{ graphEmbedValue }}
             </div>
 
-            <div class="Buttons">
-              <button
-                :aria-label="$t('Lineで{title}のグラフをシェア', { title })"
-                @click="line"
-              >
-                <picture>
-                  <source
-                    srcset="/line.webp"
-                    type="image/webp"
-                    class="icon-resize line"
-                  />
-                  <img src="/line.png" alt="LINE" class="icon-resize line" />
-                </picture>
-              </button>
+            <!--            <div class="Buttons">-->
+            <!--              <button-->
+            <!--                :aria-label="$t('Lineで{title}のグラフをシェア', { title })"-->
+            <!--                @click="line"-->
+            <!--              >-->
+            <!--                <picture>-->
+            <!--                  <source-->
+            <!--                    srcset="/line.webp"-->
+            <!--                    type="image/webp"-->
+            <!--                    class="icon-resize line"-->
+            <!--                  />-->
+            <!--                  <img src="/line.png" alt="LINE" class="icon-resize line" />-->
+            <!--                </picture>-->
+            <!--              </button>-->
 
-              <button
-                :aria-label="$t('Twitterで{title}のグラフをシェア', { title })"
-                @click="twitter"
-              >
-                <picture>
-                  <source
-                    srcset="/twitter.webp"
-                    type="image/webp"
-                    class="icon-resize twitter"
-                  />
-                  <img
-                    src="/twitter.png"
-                    alt="Twitter"
-                    class="icon-resize twitter"
-                  />
-                </picture>
-              </button>
+            <!--              <button-->
+            <!--                :aria-label="$t('Twitterで{title}のグラフをシェア', { title })"-->
+            <!--                @click="twitter"-->
+            <!--              >-->
+            <!--                <picture>-->
+            <!--                  <source-->
+            <!--                    srcset="/twitter.webp"-->
+            <!--                    type="image/webp"-->
+            <!--                    class="icon-resize twitter"-->
+            <!--                  />-->
+            <!--                  <img-->
+            <!--                    src="/twitter.png"-->
+            <!--                    alt="Twitter"-->
+            <!--                    class="icon-resize twitter"-->
+            <!--                  />-->
+            <!--                </picture>-->
+            <!--              </button>-->
 
-              <button
-                :aria-label="$t('facebookで{title}のグラフをシェア', { title })"
-                @click="facebook"
-              >
-                <picture>
-                  <source
-                    srcset="/facebook.webp"
-                    type="image/webp"
-                    class="icon-resize facebook"
-                  />
-                  <img
-                    src="/facebook.png"
-                    alt="facebook"
-                    class="icon-resize facebook"
-                  />
-                </picture>
-              </button>
-            </div>
+            <!--              <button-->
+            <!--                :aria-label="$t('facebookで{title}のグラフをシェア', { title })"-->
+            <!--                @click="facebook"-->
+            <!--              >-->
+            <!--                <picture>-->
+            <!--                  <source-->
+            <!--                    srcset="/facebook.webp"-->
+            <!--                    type="image/webp"-->
+            <!--                    class="icon-resize facebook"-->
+            <!--                  />-->
+            <!--                  <img-->
+            <!--                    src="/facebook.png"-->
+            <!--                    alt="facebook"-->
+            <!--                    class="icon-resize facebook"-->
+            <!--                  />-->
+            <!--                </picture>-->
+            <!--              </button>-->
+            <!--            </div>-->
           </div>
         </div>
       </div>
